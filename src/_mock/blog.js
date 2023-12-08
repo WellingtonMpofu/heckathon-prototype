@@ -3,11 +3,8 @@ import { faker } from '@faker-js/faker';
 // ----------------------------------------------------------------------
 
 const POST_TITLES = [
-  'Whiteboard Templates By Industry Leaders',
-  'Tesla Cybertruck-inspired camper trailer for Tesla fans who can’t just wait for the truck!',
-  'Designify Agency Landing Page Design',
-  '✨What is Done is Done ✨',
-  'Fresh Prince',
+  'Bulawayo City Sports Centre Basketball match. $5 entry fundraising towards Emthunzini Wethemba childrens dorm building.',
+  'Social dinner invitation at Smoke House. $10 entry towards buying wheel chairs for 10 kids at Jairos Jiri.',
   'Six Socks Studio',
   'vincenzo de cotiis’ crossing over showcases a research on contamination',
   'Simple, Great Looking Animations in Your Project | Video Tutorial',
