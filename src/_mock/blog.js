@@ -5,7 +5,7 @@ import { faker } from '@faker-js/faker';
 const POST_TITLES = [
   'Bulawayo City Sports Centre Basketball match. $5 entry fundraising towards Emthunzini Wethemba childrens dorm building.',
   'Social dinner invitation at Smoke House. $10 entry towards buying wheel chairs for 10 kids at Jairos Jiri.',
-  'Six Socks Studio',
+  'Bulawayo City Sports Centre Basketball match.',
   'vincenzo de cotiis’ crossing over showcases a research on contamination',
   'Simple, Great Looking Animations in Your Project | Video Tutorial',
   '40 Free Serif Fonts for Digital Designers',
