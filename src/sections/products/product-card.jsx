@@ -7,6 +7,7 @@ import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
 
 import { fCurrency } from 'src/utils/format-number';
+import { useNavigate } from 'react-router-dom';
 
 import Label from 'src/components/label';
 import { ColorPreview } from 'src/components/color-utils';
@@ -14,6 +15,15 @@ import { ColorPreview } from 'src/components/color-utils';
 // ----------------------------------------------------------------------
 
 export default function ShopProductCard({ product }) {
+  const navigate = useNavigate();
+
+  const handleLinkClick = () => {
+    // Replace '/your-destination' with the actual path you want to navigate to
+    navigate('/your-destination');
+  };
+
+  
+
   const renderStatus = (
     <Label
       variant="filled"
@@ -58,7 +68,7 @@ export default function ShopProductCard({ product }) {
         {product.priceSale && fCurrency(product.priceSale)}
       </Typography>
       &nbsp;
-      {fCurrency(product.price)}
+      {(product.price)}
     </Typography>
   );
 
@@ -71,13 +81,16 @@ export default function ShopProductCard({ product }) {
       </Box>
 
       <Stack spacing={2} sx={{ p: 3 }}>
-        <Link color="inherit" underline="hover" variant="subtitle2" noWrap>
+        <Link 
+       component="button"
+       onClick={handleLinkClick}
+        color="inherit" underline="hover" variant="subtitle2" noWrap >
           {product.name}
         </Link>
 
         <Stack direction="row" alignItems="center" justifyContent="space-between">
           <ColorPreview colors={product.colors} />
-          {renderPrice}
+         {/* Capacity : {renderPrice} */}
         </Stack>
       </Stack>
     </Card>
