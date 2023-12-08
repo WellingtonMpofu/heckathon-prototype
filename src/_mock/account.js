@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------
 
 export const account = {
-  displayName: 'Jaydon Frankie',
+  displayName: "Allegemeine Home",
   email: 'demo@minimals.cc',
-  photoURL: '/assets/images/avatars/avatar_25.jpg',
+  photoURL: '/assets/images/avatars/hackathon logo main.jpg',
 };
